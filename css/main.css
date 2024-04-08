@@ -6,14 +6,22 @@ main {
     border: 1px solid black;
 }
 
+article {
+    border: 1px solid black;
+    padding: 15px;
+    margin: 20px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.356);
+}
+
 main h1 {
-    padding: 40px 0px 0px 20px;
-    font-size: 1.8em;
+    padding: 10px 0px 20px 0px;
+    font-size: 2em;
 }
 
 main p {
-    padding: 20px;
     text-align: justify;
     text-indent: 25px;
-    line-height: 2em;
+    line-height: 2.5em;
+    padding: 10px 0px 10px 0px;
 }
+

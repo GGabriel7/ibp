@@ -14,11 +14,12 @@
 
 header {
     font-family: var(--font-titulo);
-    background-image: linear-gradient(180deg, var(--cor1), black);
-    box-shadow: 2px 0px 5px black;
-    text-decoration: none;
+    font-size: 18px;
     display: grid;
     place-items: center;
+    background-image: linear-gradient(180deg, var(--cor1), black);
+    height: 180px;
+    box-shadow: 2px 0px 5px black;
 }
 
 ul {
@@ -37,7 +38,8 @@ a {
     display: flex;
     justify-content: center;
     align-items: stretch;
-    height: 180px;
+    height: 40px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.644);
 }
 
 .menu li {
@@ -47,7 +49,7 @@ a {
 }
 
 .menu li:hover .submenu {
-    height: 45px;
+    height: 75px;
 }
 
 .menu > li:hover > a {
@@ -60,8 +62,6 @@ a {
 }
 
 .submenu {
-    text-align: center;
-    margin-top: -50px;
     overflow: hidden;
     position: absolute;
     left: 0;
@@ -71,7 +71,7 @@ a {
     width: 100%;
     background-color: #004cb600;
     height: 0;
-    line-height: 15px;
+    line-height: 40px;
     box-sizing: border-box;
     transition: height 0.3s ease-in-out;
 }
@@ -79,6 +79,7 @@ a {
 .menu li .submenu a {
     color: #fff;
     opacity: 0;
+    font-size: 16px;
     transition: opacity 0.4s;
 }
 
@@ -87,8 +88,7 @@ a {
 }
 
 .menu > li .submenu a:hover {
-    background: #00f7ff34;
-    border-radius: 1px;
+    background-image: linear-gradient(0deg, rgba(255, 255, 255, 0), #1bb2d879);
 }
 
 .menu > li a {
@@ -112,6 +112,11 @@ a {
     left: 0px;
     background-color: #fff;
     transition: all 0.2s ease-in-out;
-    scale: 0.0;
+    scale: 0 0;
     visibility: hidden;
+}
+
+
+#contribua:hover {
+    color: red;
 }
