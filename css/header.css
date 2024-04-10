@@ -2,37 +2,42 @@
 
 @import 'style.csss';
 
-header {
-    position: fixed;
-    width: 100%;
-    font-family: var(--font-titulo);
-    font-size: 18px;
-    display: grid;
-    place-items: center;
-    height: 90px;
-    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.582);
-
-    background-image: url(../imagens/fundoHeader.jpg);
-}
-
-ul {
-    list-style: none;
+.nav {
+    position: sticky;
+    top: 0px;
 }
 
 nav {
+    font-family: var(--font-titulo);
+    font-size: 18px;
+    
     width: 100%;
-    max-width: 650px;
+
+    display: grid;
+    place-items: center;
+
+    height: 90px;
+
+    box-shadow: 2px 0px 3px rgba(0, 0, 0, 0.37);
+    background-color: black;
 }
 
-a {
+nav ul {
+    list-style: none;
+    margin-top: -2px;
+}
+
+nav a {
     cursor: pointer;
 }
 
 .menu {
     display: flex;
+    width: 100%;
+    max-width: 650px;
     justify-content: center;
     align-items: stretch;
-    height: 50%;
+    height: 30%;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.644);
 }
 
@@ -93,7 +98,7 @@ a {
     padding: 0 7px;
     text-decoration: none;
     position: relative;
-    height: 30px;
+    height: 26px;
 }
 
 

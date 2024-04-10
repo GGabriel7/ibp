@@ -8,7 +8,6 @@ main {
     margin: auto;
     box-shadow: 0px 0px 7px black;
     border: 1px solid black;
-    padding-top: 90px;
 }
 
 article {
@@ -21,6 +20,10 @@ article {
 main h1 {
     padding: 10px 0px 20px 0px;
     font-size: 2em;
+}
+
+main h2 {
+    padding: 30px 0px 20px 0px;
 }
 
 main p {

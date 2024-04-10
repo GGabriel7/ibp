@@ -12,6 +12,14 @@
     --font-titulo: "Bebas Neue", 'open sans', sans-serif;
 }
 
+div#fotoinicial {
+    background-image: url(../imagens/logoFrasePret.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 15vh;
+}
+
 body {
     font-family: var(--font-padrao);
     background-color: var(--cor3);
