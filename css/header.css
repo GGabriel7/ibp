@@ -2,12 +2,21 @@
 
 @import 'style.csss';
 
-.nav {
-    position: sticky;
-    top: 0px;
+div#fotoinicial {
+    width: 100%;
+    background-image: url(../imagens/logoFrasePret.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 250px;
+    margin-left: -15px;
 }
 
-nav {
+main > nav {
+    position: sticky;
+    z-index: 1000;
+    top: 0px;
+
     font-family: var(--font-titulo);
     font-size: 18px;
     
@@ -17,8 +26,6 @@ nav {
     place-items: center;
 
     height: 90px;
-
-    box-shadow: 2px 0px 3px rgba(0, 0, 0, 0.37);
     background-color: black;
 }
 
