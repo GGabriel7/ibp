@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@import 'style.csss';
+@import 'style.css';
 
 main {
     background-color: var(--cor3);
@@ -34,4 +34,29 @@ main p {
     text-indent: 25px;
     line-height: 2.5em;
     padding: 10px 0px 10px 0px;
+}
+
+.seta {
+
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff85;
+    text-align: center;
+    position: fixed;
+    bottom: 20px;
+    right: 5%;
+    width: 40px;
+    height: 40px;
+    background-color: #1bb2d885;
+    border: 1px solid #000000ce;
+    cursor: pointer;
+    border-radius: 30%;
+}
+
+.seta:hover {
+    color: white;
+    background-color: var(--cor4);
+    border: 1px solid #ffffff;
+    
+    box-shadow: inset 2px 2px 2px black;
 }
