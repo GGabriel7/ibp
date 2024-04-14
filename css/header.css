@@ -84,6 +84,10 @@ nav a {
     text-shadow: 1px 1px 1px rgb(0, 0, 0);
 }
 
+.submenu li {
+    max-width: 250px;
+}
+
 .menu li .submenu a {
     color: #fff;
     opacity: 0;
