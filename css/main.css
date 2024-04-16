@@ -39,23 +39,23 @@ main p {
 .seta {
     text-decoration: none;
     font-size: 25px;
-    color: #ffffff85;
+    color: #000000;
     text-align: center;
     position: fixed;
-    bottom: 20px;
-    right: 5%;
+    bottom: 2%;
+    right: 2%;
     width: 40px;
     height: 40px;
-    background-color: #1bb2d885;
-    border: 1px solid #000000ce;
+    background-color: #1bb2d838;
     cursor: pointer;
     border-radius: 30%;
+    
+    box-shadow: 1.3px 1.3px 2px #0000009c;
 }
 
 .seta:hover {
     color: white;
     background-color: var(--cor4);
-    border: 1px solid #ffffff;
     
-    box-shadow: inset 2px 2px 2px black;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.685);
 }
